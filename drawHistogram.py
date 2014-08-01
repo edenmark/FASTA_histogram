@@ -43,7 +43,7 @@ for each_line in new_file:
 	if each_line[0] == '>':
 		total.append(n)		
 		n=0
-		end = False
+		
 	else:
 		for each_char in each_line:
 						
