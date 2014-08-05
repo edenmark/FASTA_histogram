@@ -57,7 +57,7 @@ for name in name_list:
 	ylist.append(len_dict[name])
 
 pylab.hist(total,num_bins, (0,max(total)))
-pylab.title('Length of Reads')
+pylab.title('Distribution of Reads for '+str(your_file))
 pylab.xlabel('Length of Nucleotide Sequence')
 pylab.ylabel('Number of Sequences')
 pylab.show()
