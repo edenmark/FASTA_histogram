@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Fasta histogram by edenmark</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Fasta histogram</h1>
+        <p>Creates a histogram for the read lengths of a FASTA file. </p>
+        <p class="view"><a href="https://github.com/edenmark/FASTA_histogram">View the Project on GitHub <small>edenmark/FASTA_histogram</small></a></p>
+        <ul>
+          <li><a href="https://github.com/edenmark/FASTA_histogram/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/edenmark/FASTA_histogram/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/edenmark/FASTA_histogram">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h3>
+<a name="welcome-to-the-fasta-histogram-creator" class="anchor" href="#welcome-to-the-fasta-histogram-creator"><span class="octicon octicon-link"></span></a>Welcome to the FASTA Histogram Creator.</h3>
+
+<h3>
+<a name="fasta-files" class="anchor" href="#fasta-files"><span class="octicon octicon-link"></span></a>FASTA Files</h3>
+
+<p>FASTA files contain genomic information as well as a name for that sequence. The format of the file looks like: </p>
+
+<p><code>&gt;name_of_read</code>
+<code>NUCLEOTIDE_SEQUENCE</code></p>
+
+<h3>
+<a name="program-requirements" class="anchor" href="#program-requirements"><span class="octicon octicon-link"></span></a>Program Requirements</h3>
+
+<p>In order to run the Python program draw_histogram.py, you MUST have pylab installed. The program uses Python's pylab tool to create its visualization. You can run this program on the command line, by specifying the required parameter of a FASTA file and optional parameter (num_bins) of the number of bins (default is 10). You can call the program in the command line as follows:</p>
+
+<p><code>[user@localhost] $ draw_histogram.py fasta_file.fasta -num_bins 25</code></p>
+
+<h3>
+<a name="output-histogram" class="anchor" href="#output-histogram"><span class="octicon octicon-link"></span></a>Output Histogram</h3>
+
+<p>This program produces a histogram of the lengths of the reads of the input FASTA. Each FASTA input can contain thousands of reads and it is often difficult to get a good understanding of your read sizes by simply looking at the FASTA. The histogram produced shows the distribution of your read lengths, with size on the x-axis and number of reads in that bin on the y-axis.</p>
+
+<h3>
+<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+
+<p>This program was created at the Woods Hole Oceanographic Institution, Apprill Lab by Evan Denmark (<a href="https://github.com/edenmark" class="user-mention">@edenmark</a>).</p>
+      </section>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/edenmark">edenmark</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
