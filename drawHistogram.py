@@ -58,7 +58,7 @@ for name in name_list:
 
 pylab.hist(total,num_bins, (0,max(total)))
 pylab.title('Length of Reads')
-pylab.xlabel('number of nucleotides')
-pylab.ylabel('number of sequences')
+pylab.xlabel('Length of Nucleotide Sequence')
+pylab.ylabel('Number of Sequences')
 pylab.show()
 
